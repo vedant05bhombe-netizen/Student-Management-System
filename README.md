@@ -48,13 +48,13 @@ This system allows CRUD operations (Create, Read, Update, Delete) on student dat
  Create a database named student_management.
 
  
- Update application.properties ===>>
+ ## Update application.properties ===>>
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/student_management
-spring.datasource.username=YOUR_DB_USERNAME
-spring.datasource.password=YOUR_DB_PASSWORD
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+- spring.datasource.url=jdbc:postgresql://localhost:5432/student_management
+- spring.datasource.username=YOUR_DB_USERNAME
+- spring.datasource.password=YOUR_DB_PASSWORD
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
 
 ---------------------------------------------------------------------------------------
 
@@ -74,17 +74,17 @@ src
 
 ---------------------------------------------------------------------------------------
          
-Contributions are welcome! ===>
+## Contributions are welcome! ===>
 
-Fork the repository
+- Fork the repository
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+- Create your feature branch (git checkout -b feature/AmazingFeature)
 
-Commit your changes (git commit -m 'Add some feature')
+- Commit your changes (git commit -m 'Add some feature')
 
-Push to the branch (git push origin feature/AmazingFeature)
+- Push to the branch (git push origin feature/AmazingFeature)
 
-Open a Pull Request
+- Open a Pull Request
 
 
 
