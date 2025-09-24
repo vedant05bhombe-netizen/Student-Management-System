@@ -102,6 +102,6 @@ Test the APIs using Postman or any REST client.
 
 ## Open a Pull Request
 
-Author
+### Author
 
-Vedant Bhombe – GitHub Profile
+Vedant Bhombe -
