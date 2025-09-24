@@ -43,12 +43,14 @@ This system allows CRUD operations (Create, Read, Update, Delete) on student dat
    ```bash
    git clone https://github.com/your-username/student-management-system.git
    cd student-management-system
-   ------------------------------------------------------------------------------------
 
- Create a database named student_management.
 
- 
- ## Update application.properties ===>>
+   Create a PostgreSQL database:
+
+### CREATE DATABASE student_management;
+
+
+# Update application.properties:
 
 - spring.datasource.url=jdbc:postgresql://localhost:5432/student_management
 - spring.datasource.username=YOUR_DB_USERNAME
@@ -56,14 +58,19 @@ This system allows CRUD operations (Create, Read, Update, Delete) on student dat
 - spring.jpa.hibernate.ddl-auto=update
 - spring.jpa.show-sql=true
 
----------------------------------------------------------------------------------------
 
- ## Project Structure
-src
--  └─ main
-   -   ├─ java
+#Run the application:
+- mvn spring-boot:run
+
+
+Test the APIs using Postman or any REST client.
+-----------------------------------------------------------
+## Project Structure
+- src
+ - └─ main
+    - ├─ java
     -  │   └─ com.example.studentmanagement
-    -  │       ├─ controller    # REST API Controllers
+    - │       ├─ controller    # REST API Controllers
     -  │       ├─ dto           # Data Transfer Objects
     -  │       ├─ entity        # Database Entities
     -  │       ├─ repository    # JPA Repositories
@@ -72,22 +79,29 @@ src
        -   ├─ application.properties
        -  └─ data.sql (optional)
 
----------------------------------------------------------------------------------------
-         
-## Contributions are welcome! ===>
+## Contributing
+
+- Contributions are welcome!
 
 - Fork the repository
 
-- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Create your feature branch:
 
-- Commit your changes (git commit -m 'Add some feature')
-
-- Push to the branch (git push origin feature/AmazingFeature)
-
-- Open a Pull Request
+- git checkout -b feature/AmazingFeature
 
 
+## Commit your changes:
+
+- git commit -m 'Add some feature'
+
+
+## Push to the branch:
+
+- git push origin feature/AmazingFeature
+
+
+## Open a Pull Request
 
 Author
 
-VEDANT BHOMBE – 
+Vedant Bhombe – GitHub Profile
