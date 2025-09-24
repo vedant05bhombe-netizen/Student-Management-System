@@ -60,17 +60,17 @@ This system allows CRUD operations (Create, Read, Update, Delete) on student dat
 
  ## Project Structure
 src
- └─ main
-     ├─ java
-     │   └─ com.example.studentmanagement
-     │       ├─ controller    # REST API Controllers
-     │       ├─ dto           # Data Transfer Objects
-     │       ├─ entity        # Database Entities
-     │       ├─ repository    # JPA Repositories
-     │       └─ service       # Service Layer
-     └─ resources
-         ├─ application.properties
-         └─ data.sql (optional)
+-  └─ main
+   -   ├─ java
+    -  │   └─ com.example.studentmanagement
+    -  │       ├─ controller    # REST API Controllers
+    -  │       ├─ dto           # Data Transfer Objects
+    -  │       ├─ entity        # Database Entities
+    -  │       ├─ repository    # JPA Repositories
+    -  │       └─ service       # Service Layer
+    -  └─ resources
+       -   ├─ application.properties
+       -  └─ data.sql (optional)
 
 ---------------------------------------------------------------------------------------
          
